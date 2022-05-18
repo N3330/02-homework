@@ -1,0 +1,22 @@
+/*body styling adding font*/
+body {
+ font-family: 'JetBrains Mono NL', Arial, monospace;   
+}
+.banner {
+    background-image: url(../images/code-banner.jpg);
+    height: 400px;
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+}
+
+.banner img {
+    height: 150px;
+    border-radius: 45%;
+    width: 150px;
+    
+}
+
+.banner div {
+    width: 100%;
+}
