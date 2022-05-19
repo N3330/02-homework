@@ -73,22 +73,64 @@ main {
 }
 
 .work {
-    border: solid;
     display: flex;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 70px;
-    align-items: center;
+    flex-direction: column;
+    background-color: lightseagreen;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
 }
 
-.work-1 {
+.work a{
+    text-align: center;
+    color:black;
+}
+
+.first-project, .future-projects {
     display: flex;
-    height: 150px;
-    width: 89%;
-    align-self: auto;
-    background-image: url(https://picsum.photos/1500);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 85px;
+    margin: 0.45rem;
+    border-radius: 5rem;
+    background-color: white;
+    border: 0.3em solid black;
+}
+.only.project{
+height: 185px;
+width: 400px;
+
+}
+
+#seoproject {
+    background: url('../images/Horiseon-Search-Engine-Optimization.png');
+    background-position: center;
+    background-size: cover;
+
+}
+#upcoming2 {
+    background: url('https://picsum.photos/202');
+    background-position: center;
+    background-size: cover;
+}
+
+#upcoming3 {
+    background: url('https://picsum.photos/201');
+    background-position: center;
+    background-size: cover;
+}
+
+#upcoming4 {
+    background: url('https://picsum.photos/200');
+    background-position: center;
+    background-size: cover;
 }
 
 .work-2 {
