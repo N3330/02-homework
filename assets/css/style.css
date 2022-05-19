@@ -83,6 +83,13 @@ main {
     background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 footer a {
     color: purple;
     padding: 10px;
@@ -97,7 +104,6 @@ footer a {
 }
 
 .title {
-    border-right: 15px solid;
     min-height: 100%;
     text-align: left;
     padding-right: 25px;
