@@ -1,4 +1,7 @@
 /*body styling adding font*/
+* {
+    box-sizing: border-box;
+}
 body {
  font-family: 'JetBrains Mono NL', Arial, monospace;   
 }
@@ -20,3 +23,54 @@ body {
 .banner div {
     width: 100%;
 }
+
+h1 {
+    text-align: left;
+    width: 100%;
+    font-size: xx-large;
+    color: purple;
+    text-align:center;
+}
+
+nav {
+    display: flex;
+    background-color: aquamarine;
+    padding: 20px;
+    justify-content: end;
+}
+nav a {
+    color: purple;
+    padding: 14px 20px;
+}
+
+.about-me {
+    padding: 30px;
+    background-color: azure;
+    color: purple;
+    border: 10px solid black;
+   
+
+}
+
+#seo-refactor {
+    width: 75%;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
+    background-size: ;
+}
+
+.work {
+    border: solid;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: none;
+}
+
