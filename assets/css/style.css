@@ -7,7 +7,7 @@ body {
 }
 .banner {
     background-image: url(../images/code-banner.jpg);
-    height: 400px;
+    height: 300px;
     background-size: cover;
     justify-content: space-around;
     display: flex;
@@ -64,6 +64,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 6;
+    font-weight: bold;
 }
 
 .work {
@@ -78,7 +79,28 @@ main {
 
 .work-1 {
     height: 150px;
-    width: 85%;
+    width: 89%;
     background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
 }
 
+footer a {
+    color: purple;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#contact-info {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    border-right: 15px solid;
+    min-height: 100%;
+    text-align: left;
+    padding-right: 25px;
+    min-width: 10%;
+    max-width: 10%;
+}
