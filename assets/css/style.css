@@ -51,26 +51,34 @@ nav a {
    
 
 }
-
+/*
 #seo-refactor {
     width: 75%;
-    display: inline-block;
+    display: flex;
     padding: 20px;
     height: 200px;
     border: 2px solid black;
     background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
-    background-size: ;
+} */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 6;
 }
 
 .work {
     border: solid;
-    color: black;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-decoration: none;
     background-size: cover;
     background-position: center;
-    opacity: none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 70px;
+}
+
+.work-1 {
+    height: 150px;
+    width: 85%;
+    background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
 }
 
