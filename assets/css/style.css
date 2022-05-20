@@ -5,6 +5,7 @@
 body {
  font-family: 'JetBrains Mono NL', Arial, monospace;   
 }
+/*added background image to banner*/
 .banner {
     background-image: url(../images/code-banner.jpg);
     height: 300px;
@@ -12,7 +13,7 @@ body {
     justify-content: space-between;
     display: flex;
 }
-
+/*my picture sizing*/
 .banner img {
     height: 150px;
     border-radius: 45%;
@@ -56,15 +57,7 @@ nav a {
    
 
 }
-/*
-#seo-refactor {
-    width: 75%;
-    display: flex;
-    padding: 20px;
-    height: 200px;
-    border: 2px solid black;
-    background-image: url(../images/Horiseon-Search-Engine-Optimization.png);
-} */
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -85,13 +78,13 @@ main {
     text-align: center;
     color:black;
 }
-
+/*added flex to project classes*/
 .first-project, .future-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*main container styling*/
 .project {
     display: flex;
     justify-content: center;
@@ -103,18 +96,20 @@ main {
     background-color: white;
     border: 0.3em solid black;
 }
+/*large continer sizing*/
 .only.project{
 height: 185px;
 width: 400px;
 
 }
-
+/*large container background image*/
 #seoproject {
     background: url('../images/Horiseon-Search-Engine-Optimization.png');
     background-position: center;
     background-size: cover;
 
 }
+/*smaller containers backgrouind images*/
 #upcoming2 {
     background: url('https://picsum.photos/202');
     background-position: center;
@@ -167,9 +162,9 @@ footer a {
     border-style: solid black;
     font-weight: bolder;
 }
-
+/*added color when hover over links*/
 a:hover {
-    background-color: orange;
+    background-color: rgb(0, 255, 34);
 }
 /* cards are stacked on top of each other at 768px or smaller*/
 @media screen and (max-width:768px)  {
