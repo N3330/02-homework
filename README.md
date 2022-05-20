@@ -7,7 +7,7 @@
 3. [Resources](#resources)
 
 ## Description
-Built a portfolio using only html and advanced CSS to showcase projects up to this point in the coding bootcamp.This project highlights some of the core skills I recently learned like flexbox, media quieries, and CSS viables. Since I have only one project I used place holders for future projects.
+Built a portfolio using only html and advanced CSS to showcase projects up to this point in the coding bootcamp.This project highlights some of the core skills I recently learned like flexbox, media quieries, and CSS viables. Since I only have one project I used place holders for future projects.
 
 ## Visuals
 ![Portfolio](./assets/images/My-First-Portfolio.png) 
