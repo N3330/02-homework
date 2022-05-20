@@ -14,4 +14,5 @@ Built a portfolio using only html and advanced CSS to showcase projects up to th
 
 # Resources
 - [Live Site](https://n3330.github.io/02-homework/)
+- [Repository](https://github.com/N3330/seo-refactor)
 - [A Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
