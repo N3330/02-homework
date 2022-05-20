@@ -37,7 +37,7 @@ h1 {
 nav {
     display: flex;
     padding: 15px;
-    background-color: gold;
+    background-color: lightgray;
     justify-content: space-around;
 }
 nav a {
@@ -133,15 +133,7 @@ width: 400px;
     background-size: cover;
 }
 
-.work-2 {
-    background-image: url(https://picsum.photos/200);
-}
-.work-3 {
-    background-image: url(https://picsum.photos/205);
-}
-.work-4 {
-    background-image: url(https://picsum.photos/203);
-}
+
 
 footer {
     display: flex;
@@ -178,4 +170,13 @@ footer a {
 
 a:hover {
     background-color: orange;
+}
+/* cards are stacked on top of each other at 768px or smaller*/
+@media screen and (max-width:768px)  {
+    .first-project {
+        width: 100%;
+    }
+    .project {
+        width: 100%;
+    }
 }
