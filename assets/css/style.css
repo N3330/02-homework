@@ -110,8 +110,8 @@ width: 400px;
 
 }
 /*smaller containers backgrouind images*/
-#upcoming2 {
-    background: url('https://picsum.photos/202');
+#foodgenie {
+    background: url('../images/food-genie.png');
     background-position: center;
     background-size: cover;
 }
